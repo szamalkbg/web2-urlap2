@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rendszergazda</title>
+    <link rel="stylesheet" href="stilus.css">
+</head>
+<body>
+    <main>
+        <form action="#" method="get" id="form">
+            <fieldset>
+                <legend>regisztráció</legend>
+                <div class="regisztracio">
+                    <div>
+                        <label for="fnev">felhasználónév</label>
+                        <input type="text" id="fnev" name="fnev" placeholder="csak ékezetmentes betűk">
+                    </div>
+                    <div>
+                        <label for="jelszo">jelszó</label>
+                        <input type="text" id="jelszo" name="jelszo" placeholder="min. 3 karakter">
+                    </div>
+                    <div>
+                        <label for="email">e-mail cím</label>
+                        <input type="text" id="email" name="email" placeholder="vmi@vmi.hu">
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>születés</legend>
+                <div class="szuletes">
+                    <label for="datum">születési dátum</label>
+                    <input type="date" id="datum" name="datum">
+                        <fieldset>
+                            <legend id="legend2">személyes</legend>
+                            <div class="szemelyes">
+                                    <div>
+                                        <input type="checkbox" id="box" name="box">
+                                        <label for="box">angol</label><br>
+                                        <input type="checkbox" id="box2" name="box">
+                                        <label for="box">német</label><br>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="szak1" name="szak" value="szoftverfejlesztő">
+                                        <label for="szak1">szoftverfejlesztő</label><br>
+                                        <input type="radio" id="szak2" name="szak" value="rendszergazda">
+                                        <label for="szak2">rendszergazda</label><br>
+                                        <input type="radio" id="szak3" name="szak" value="egyéb">
+                                        <label for="szak3">egyéb</label><br>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="ferfi" name="nem" value="ferfi">
+                                        <label for="szak2">férfi</label><br>
+                                        <input type="radio" id="no" name="nem" value="no">
+                                        <label for="szak3">nő</label>
+                                    </div>
+                            </div>
+                    </fieldset>
+                </div>
+            </fieldset>
+            <input type="submit" form="form" id="gomb" value="regisztráció">
+        </form>
+    </main>
+</body>
+</html>

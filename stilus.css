@@ -1,0 +1,49 @@
+body {
+    background-color: white;
+    margin: auto;
+}
+main {
+    background-color: lightgrey;
+}
+fieldset {
+    border-color: aqua;
+    border-width: 4px;
+    background-color: lightskyblue;
+}
+legend {
+    background-color: lightgreen;
+    color: white;
+    padding: 10px;
+    border: 1px solid green;
+}
+#legend2 {
+    background-color: aqua;
+    padding: 10px;
+    border: 1px solid green;
+}
+#gomb {
+background-color: lightgreen;
+color: white;
+padding: 10px;
+border: 1px solid green;
+}
+* {
+    font-size: 20px;
+    margin: 10px;
+}
+.szemelyes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.regisztracio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.regisztracio bal {
+    float: left;
+    margin-top: 10px;
+}
+.regisztracio jobb {
+    float: right;
+}
